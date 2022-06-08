@@ -5,6 +5,7 @@ def main() -> None:
     pontos: int = 0
     jogar(pontos)
 
+# Funcao principal do jogo
 def jogar(pontos: int) -> None:
     dificuldade: int = int(input('Informe o nivel de dificuldade desejada [1, 2, 3 ou 4]: '))
 
